@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Acorn King</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="stylesheets/main.css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Demo Site</title>
-</head>
-
-<body>
-  <h1 style="text-transform: uppercase;font-size: 54px;padding-top:0.7em;margin-top:0">Welcome to my site.</h1>
-  <iframe src="player.html" style="width:396px;height:264px;margin:0 auto;display:block;"></iframe>
-  <p>Click to play.</p>
-  <p>Default controls are:</p>
-  <p>
-    B: Z<br />
-    A: X<br />
-    Left Shoulder: A<br />
-    Right Shoulder: S<br />
-    Start: Enter<br />
-    Select: Backspace<br />
-    D-Pad: Arrow Keys
-  </p>
-</body>
+  <body>
+    <h1
+      style="
+        text-transform: uppercase;
+        font-size: 54px;
+        padding-top: 0.7em;
+        margin-top: 0;
+      "
+    >
+      Welcome to Acorn King
+    </h1>
+    <iframe
+      src="player.html"
+      style="width: 70vw; height: 50vh; margin: 0 auto; display: block"
+    ></iframe>
+    <p>
+      <span style="color: red; font-weight: bolder">CLICK TO PLAY.</span>
+      There's a cheat you can activate in the game, look for clues to find the
+      key combination!
+    </p>
+    <p>Controls are:</p>
+    <div style="display: inline-flex; gap: 7em">
+      <p>
+        B: <span style="color: red">Space</span><br />
+        A: <span style="color: red">Shift</span><br />
+        Left Shoulder: <span style="color: red">1</span><br />
+        Right Shoulder: <span style="color: red">3</span><br />
+        Start: <span style="color: red">E</span><br />
+        Select: <span style="color: red">Q</span><br />
+        D-Pad: <span style="color: red">WASD</span>
+      </p>
+      <p>
+        Slow Down: <span style="color: red">4</span><br />
+        Speed Up: <span style="color: red">5</span><br />
+        Reset Speed: <span style="color: red">6</span><br />
+        Volume Up: <span style="color: red">7</span><br />
+        Volume Down: <span style="color: red">8</span><br />
+        Toggle Fullscreen: <span style="color: red">F</span><br />
+      </p>
+      <p>
+        <span style="font-weight: bolder">Emulator Settings:</span><br /><br />
+        Play/Pause:
+        <span style="color: red">P</span><br />
+        Restart:
+        <span style="color: red">R</span>
+      </p>
+    </div>
+  </body>
 </html>
